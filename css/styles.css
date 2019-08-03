@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "IM Fell DW Pica Pro";
+    src: url("../fonts/imfelldwpicapro_regular_macroman/FePIrm27C-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "IM Fell DW Pica Pro Italics";
+    src: url("../fonts/imfelldwpicapro_italic_macroman/FePIit27C-webfont.woff") format("woff");
+    font-style: italic, oblique;
+}
+
+
+/*****
+Border Box
+*****/
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "IM Fell DW Pica Pro", serif;
+    background:url('../images/off_white_parchment_paper_wallpaper_texture_seamless.jpg') repeat top left;
+    background-size: 225px 225px;
+}
