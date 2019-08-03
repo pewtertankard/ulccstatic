@@ -23,7 +23,7 @@ Border Box
 html {
     box-sizing: border-box;
     font-family: "IM Fell DW Pica Pro", serif;
-    font-size: 2rem;
+    font-size: 1.4em;
     background:url('../images/off_white_parchment_paper_wallpaper_texture_seamless.jpg') repeat top left;
     background-size: 225px 225px;
 }
