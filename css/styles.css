@@ -20,10 +20,22 @@ Border Box
     box-sizing: inherit;
 }
 
-html {
+body {
     box-sizing: border-box;
     font-family: "IM Fell DW Pica Pro", serif;
-    font-size: 1.4em;
+    font-size: 1.25em;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background:url('../images/off_white_parchment_paper_wallpaper_texture_seamless.jpg') repeat top left;
     background-size: 225px 225px;
+}
+
+.content {
+    background: #E8E6D6;
+    background-blend-mode: color-burn;
+    width: 70vw;
+    padding: 3em;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.15)
 }
