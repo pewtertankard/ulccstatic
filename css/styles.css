@@ -20,13 +20,7 @@ Border Box
     box-sizing: inherit;
 }
 
-:root {
-    --gradient: linear-gradient(40deg, rgb(232, 230, 214), rgb(231, 225, 176));
-  
-  }
-  
-  
-  body {
+body {
     box-sizing: border-box;
     font-family: "IM Fell DW Pica Pro", serif;
     font-size: 1.25em;
@@ -36,25 +30,14 @@ Border Box
     align-items: center;
     background:url('http://brewcoffeevalley.com/wp-content/uploads/2016/03/floor-bg-768x768.jpg');
     background-size: 384px 384px;
-    /***
-    background:url('../images/off_white_parchment_paper_wallpaper_texture_seamless.jpg') repeat top left;
-    background-size: 225px 225px;
-    ***/
 }
 
 .content {
-    /***background: #E8E6D6;***/
-    /***
-    background-image: var(--gradient);
-    background-size: 300%;
-    animation: bg-animation 10s infinite;
-    ***/
-    background-color: #fae7cb;
+    background-color: #fceed9;
     background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     width: 80vw;
-    padding: 3em;
-    box-shadow: 0 0 3em black
+    padding: 1.5rem;
+    box-shadow: 0 0 3em black;
 }
 
 header
@@ -66,13 +49,14 @@ header
 footer
 {
     text-align: center;
+    font-size: 0.75rem;
     width: 100%;
 }
 
 .mainlogo
 {
-    max-width: 70%;
-    max-height: 225px;
+    max-width: 90%;
+    max-height: 300px;
     width: auto;
     height: auto;
 }
