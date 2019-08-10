@@ -69,19 +69,21 @@ mainpageheader
 
 .standardheader-dropdown-content{
     display: block;
-    visibility: hidden;
     position: absolute;
+    height: 0;
+    overflow: hidden;
     background-color: #fceed9;
     background-image: url("../images/textured-paper.png");
     background-size: 250px 250px;
     min-width: 160px;
     box-shadow: 0 0 1em #8d8374;
     z-index: 1;
-    transition: visibility 1s;
+    transition-property: height;
+    transition-duration: 1ms;
 }
 
 .standardheader-dropdown:hover .standardheader-dropdown-content {
-    visibility: visible;
+    height: auto;
 }
   
 
