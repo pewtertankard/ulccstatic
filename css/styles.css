@@ -68,7 +68,8 @@ mainpageheader
 }
 
 .standardheader-dropdown-content{
-    display: none;
+    display: block;
+    visibility: hidden;
     position: absolute;
     background-color: #fceed9;
     background-image: url("../images/textured-paper.png");
@@ -76,11 +77,11 @@ mainpageheader
     min-width: 160px;
     box-shadow: 0 0 1em #8d8374;
     z-index: 1;
-    transition: display 1s;
+    transition: visibility 1s;
 }
 
 .standardheader-dropdown:hover .standardheader-dropdown-content {
-    display: block;
+    visibility: visible;
 }
   
 
