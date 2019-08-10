@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="305" height="216" viewBox="0, 0, 305, 216">
+  <defs>
+    <clipPath id="Clip_1">
+      <path d="M374,93 C386.703,93 397,103.297 397,116 C397,128.703 386.703,139 374,139 L115,139 C102.297,139 92,128.703 92,116 C92,103.297 102.297,93 115,93 L374,93 z"/>
+    </clipPath>
+    <filter id="InnerShadow_2">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8.5"/>
+      <feOffset dx="5" dy="5" result="offsetblur"/>
+      <feFlood flood-color="#FFFFFF"/>
+      <feComposite in2="offsetblur" operator="in"/>
+    </filter>
+    <clipPath id="Clip_3">
+      <path d="M374,178 C386.703,178 397,188.297 397,201 C397,213.703 386.703,224 374,224 L115,224 C102.297,224 92,213.703 92,201 C92,188.297 102.297,178 115,178 L374,178 z"/>
+    </clipPath>
+    <filter id="InnerShadow_4">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8.5"/>
+      <feOffset dx="5" dy="5" result="offsetblur"/>
+      <feFlood flood-color="#FFFFFF"/>
+      <feComposite in2="offsetblur" operator="in"/>
+    </filter>
+    <clipPath id="Clip_5">
+      <path d="M374,263 C386.703,263 397,273.297 397,286 C397,298.703 386.703,309 374,309 L115,309 C102.297,309 92,298.703 92,286 C92,273.297 102.297,263 115,263 L374,263 z"/>
+    </clipPath>
+    <filter id="InnerShadow_6">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8.5"/>
+      <feOffset dx="5" dy="5" result="offsetblur"/>
+      <feFlood flood-color="#FFFFFF"/>
+      <feComposite in2="offsetblur" operator="in"/>
+    </filter>
+  </defs>
+  <g id="Layer_1" transform="translate(-92, -93)">
+    <g>
+      <g>
+        <path d="M115,93 L374,93 C386.703,93 397,103.297 397,116 L397,116 C397,128.703 386.703,139 374,139 L115,139 C102.297,139 92,128.703 92,116 L92,116 C92,103.297 102.297,93 115,93 z" fill="#000000"/>
+        <path d="M69,70 L420,70 L420,162 L69,162 z M374,93 L115,93 C102.297,93 92,103.297 92,116 C92,128.703 102.297,139 115,139 L374,139 C386.703,139 397,128.703 397,116 C397,103.297 386.703,93 374,93 z" clip-path="url(#Clip_1)" filter="url(#InnerShadow_2)" fill="rgba(0,0,0,1)"/>
+      </g>
+      <g>
+        <path d="M115,178 L374,178 C386.703,178 397,188.297 397,201 L397,201 C397,213.703 386.703,224 374,224 L115,224 C102.297,224 92,213.703 92,201 L92,201 C92,188.297 102.297,178 115,178 z" fill="#000000"/>
+        <path d="M69,155 L420,155 L420,247 L69,247 z M374,178 L115,178 C102.297,178 92,188.297 92,201 C92,213.703 102.297,224 115,224 L374,224 C386.703,224 397,213.703 397,201 C397,188.297 386.703,178 374,178 z" clip-path="url(#Clip_3)" filter="url(#InnerShadow_4)" fill="rgba(0,0,0,1)"/>
+      </g>
+      <g>
+        <path d="M115,263 L374,263 C386.703,263 397,273.297 397,286 L397,286 C397,298.703 386.703,309 374,309 L115,309 C102.297,309 92,298.703 92,286 L92,286 C92,273.297 102.297,263 115,263 z" fill="#000000"/>
+        <path d="M69,240 L420,240 L420,332 L69,332 z M374,263 L115,263 C102.297,263 92,273.297 92,286 C92,298.703 102.297,309 115,309 L374,309 C386.703,309 397,298.703 397,286 C397,273.297 386.703,263 374,263 z" clip-path="url(#Clip_5)" filter="url(#InnerShadow_6)" fill="rgba(0,0,0,1)"/>
+      </g>
+    </g>
+  </g>
+</svg>
