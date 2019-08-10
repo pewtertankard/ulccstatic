@@ -83,7 +83,7 @@ mainpageheader
 }
 
 .standardheader-dropdown:hover .standardheader-dropdown-content {
-    height: auto;
+    height: 300px;
 }
   
 
