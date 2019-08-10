@@ -76,6 +76,7 @@ mainpageheader
     min-width: 160px;
     box-shadow: 0 0 1em #8d8374;
     z-index: 1;
+    transition: display 1s;
 }
 
 .standardheader-dropdown:hover .standardheader-dropdown-content {
