@@ -81,10 +81,15 @@ mainpageheader
     transition-duration: 1s;
 }
 
+/*
 .standardheader-dropdown:hover .standardheader-dropdown-content {
+    height: 300px;
+}
+*/
+
+.standardheader-dropdown-toggle:checked ~ .standardheader-dropdown-content {
     height: 200px;
 }
-  
 
 footer
 {
