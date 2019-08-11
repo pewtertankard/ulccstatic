@@ -88,7 +88,7 @@ mainpageheader
 */
 
 .standardheader-dropdown-toggle:checked ~ .standardheader-dropdown-content {
-    height: 200px;
+    height: 175px;
 }
 
 footer
@@ -113,6 +113,17 @@ footer
 {
     max-width: 50%;
     max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+.photoimage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 500px;
     width: auto;
     height: auto;
 }
