@@ -9,6 +9,11 @@
     font-style: italic, oblique;
 }
 
+@font-face {
+    font-family: "Bravura";
+    src: url("../fonts/Music/BravuraText.woff") format("woff");
+}
+
 *,
 *::before,
 *::after {
@@ -136,13 +141,14 @@ footer
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        font-size: 1.5rem;
         white-space: nowrap;
         width: 100%;
     }
     
-    homepagenavigation::before { content: "\1D106 "; }
-    homepagenavigationitem:not(:last-child)::after { content: " \1D100 "; }
-    homepagenavigation::after { content: "\1D107"; }
+    homepagenavigation::before { font-family: "Bravura"; font-size: 1rem; content: "\1D106 "; }
+    homepagenavigationitem:not(:last-child)::after { font-family: "Bravura"; font-size: 1rem; content: "\00A0\00A0\1D100\00A0\00A0"; }
+    homepagenavigation::after { font-family: "Bravura"; font-size: 1rem; content: "\1D107"; }
     
     homepagenavigationitem
     {
@@ -157,19 +163,22 @@ footer
     {
         display: block;
         text-align: left;
+        font-size: 1.5rem;
         padding-left: 1rem;
+        white-space: nowrap;
     }
     
     homepagenavigationitem::before
     {
-        content: "\1D121\00A0";
-        
+        content: "\1D121\00A0\00A0\00A0";
+        font-family: "Bravura";
+        font-size: 1rem;
+        vertical-align: text-top;
     }
 
     homepagenavigationitem
     {
         display: block;
-        text-align: left;
         break-inside: avoid;
         overflow: hidden;
     }
