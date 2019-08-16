@@ -232,7 +232,15 @@ footer
 {
     .columns
     {
-        column-count: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+    
+    .columnsIntroMain
+    {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
         column-gap: 20px;
     }
     
