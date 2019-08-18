@@ -9,13 +9,6 @@
     font-style: italic, oblique;
 }
 
-/**
-@font-face {
-    font-family: "Bravura";
-    src: url("../fonts/Music/BravuraText.woff") format("woff");
-}
-**/
-
 *,
 *::before,
 *::after {
@@ -92,6 +85,10 @@ mainpageheader
     height: 175px;
 }
 
+ul {
+    list-style-image: url("../images/music-c-clef.svg");
+}
+
 footer
 {
     text-align: center;
@@ -145,11 +142,6 @@ footer
     
     homepagenavigation::before
     {
-        /*
-        font-family: "Bravura";
-        font-size: 1rem;
-        content: "\1D106\00A0";
-        */
         background-image: url("../images/music-start-repeat.svg");
         background-repeat: no-repeat;
         background-position-y: 5px;
@@ -159,11 +151,6 @@ footer
     }
     homepagenavigationitem:not(:last-child)::after
     {
-        /*
-        font-family: "Bravura";
-        font-size: 1rem;
-        content: "\00A0\00A0\00A0\00A0\1D100\00A0";
-        */
         background-image: url("../images/music-single-barline.svg");
         background-repeat: no-repeat;
         background-position-y: 5px;
@@ -173,11 +160,6 @@ footer
      }
     homepagenavigation::after
     {
-        /*
-        font-family: "Bravura";
-        font-size: 1rem;
-        content: "\00A0\1D107";
-        */
         background-image: url("../images/music-end-repeat.svg");
         background-repeat: no-repeat;
         background-position-y: 5px;
@@ -206,12 +188,6 @@ footer
     
     homepagenavigationitem::before
     {
-        /*
-        content: "\1D121\00A0\00A0\00A0";
-        font-family: "Bravura";
-        font-size: 1rem;
-        vertical-align: text-top;
-        */
         display: inline;
         background-image: url("../images/music-c-clef.svg");
         background-repeat: no-repeat;
