@@ -41,8 +41,12 @@ body {
     width: 90vw;
 }
 
-.section-title {
+h2 .section-title {
     font-variation-settings: 'wght' 700;
+}
+
+h1 {
+    font-variation-settings: 'wght' 800;
 }
 
 @media (max-width: 619px)
