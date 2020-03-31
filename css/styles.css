@@ -1,15 +1,4 @@
 @font-face {
-    font-family: "IM Fell DW Pica Pro";
-    src: url("../fonts/imfelldwpicapro_regular_macroman/FePIrm27C-webfont.woff") format("woff");
-}
-
-@font-face {
-    font-family: "IM Fell DW Pica Pro Italics";
-    src: url("../fonts/imfelldwpicapro_italic_macroman/FePIit27C-webfont.woff") format("woff");
-    font-style: italic, oblique;
-}
-
-@font-face {
     font-family: 'Elstob';
     src: url("../fonts/Elstob/ElstobVF.woff2");
     font-style: normal;
@@ -20,24 +9,6 @@
     src: url("../fonts/Elstob/ElstobVFItalic.woff2");
     font-style: italic;
 }
-
-:root {
-    --romsize: 1.5em;
-    --italsize: 1.5em;
-    --romopsz: 12;
-    --romwght: 400;
-    --romGRAD: 1;
-    --romspacing: 0em;
-    --italopsz: 12;
-    --italwght: 400;
-    --italslnt: 0;
-}
-/*
-em, i {
-   font-family: "IM Fell DW Pica Pro Italics";
-    font-style: normal;
-}
-*/
 
 *,
 *::before,
@@ -50,7 +21,7 @@ body {
     font-family: Elstob;
     font-size: 1.5em;
     font-variation-settings: 'opsz' 12, 'wght' 400, 'GRAD' 1, 'slnt' 0;
-    font-feature-settings: 'calt' on, 'liga' on, 'dlig' on, 'swsh' on;
+    font-feature-settings: 'calt' on, 'liga' on, 'dlig' on, 'swsh' on, 'frac' on, 'pnum' on;
     min-height: 100vh;
     display: flex;
     justify-content: center;
