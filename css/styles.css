@@ -9,10 +9,35 @@
     font-style: italic, oblique;
 }
 
-em, i {
-    font-family: "IM Fell DW Pica Pro Italics";
+@font-face {
+    font-family: 'Elstob';
+    src: url("../fonts/Elstob/ElstobVF.woff2");
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Elstob';
+    src: url("../fonts/Elstob/ElstobVFItalic.woff2");
+    font-style: italic;
+}
+
+:root {
+    --romsize: 1.5em;
+    --italsize: 1.5em;
+    --romopsz: 12;
+    --romwght: 400;
+    --romGRAD: 1;
+    --romspacing: 0em;
+    --italopsz: 12;
+    --italwght: 400;
+    --italslnt: 0;
+}
+/*
+em, i {
+   font-family: "IM Fell DW Pica Pro Italics";
+    font-style: normal;
+}
+*/
 
 *,
 *::before,
@@ -22,8 +47,10 @@ em, i {
 
 body {
     box-sizing: border-box;
-    font-family: "IM Fell DW Pica Pro", serif;
-    font-size: 1.25em;
+    font-family: Elstob;
+    font-size: 1.5em;
+    font-variation-settings: 'opsz' 12, 'wght' 400, 'GRAD' 1, 'slnt' 0;
+    font-feature-settings: 'calt' on, 'liga' on, 'dlig' on, 'swsh' on;
     min-height: 100vh;
     display: flex;
     justify-content: center;
