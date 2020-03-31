@@ -9,6 +9,11 @@
     font-style: italic, oblique;
 }
 
+em, i {
+    font-family: "IM Fell DW Pica Pro Italics";
+    font-style: normal;
+}
+
 *,
 *::before,
 *::after {
