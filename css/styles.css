@@ -19,7 +19,7 @@
 body {
     box-sizing: border-box;
     font-family: Elstob;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-variation-settings: 'opsz' 12, 'wght' 400, 'GRAD' 1, 'slnt' 0;
     font-feature-settings: 'calt' on, 'liga' on, 'dlig' on, 'swsh' on, 'frac' on, 'pnum' on;
     min-height: 100vh;
@@ -34,9 +34,32 @@ body {
     background-color: #fceed9;
     background-image: url("../images/textured-paper.png");
     background-size: 250px 250px;
-    width: 80vw;
     padding: 1.5rem;
     box-shadow: 0 0 3em black;
+    width: 90vw;
+}
+
+@media (max-width: 619px)
+{
+    .body {
+        font-size: 1.15em;
+    }
+
+    .content {
+        width: 100vw;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1280px)
+{
+    .body {
+        font-size: 1.5em;
+    }
+
+    .content {
+        width: 80vw;
+    }
 }
 
 mainpageheader
