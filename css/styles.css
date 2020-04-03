@@ -170,6 +170,17 @@ footer
     height: auto;
 }
 
+.mugshotimage
+{
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: min(200px, 100vh);
+    width: auto;
+    height: auto;
+}
+
 @media (min-width: 620px)
 {
     homepagenavigation
