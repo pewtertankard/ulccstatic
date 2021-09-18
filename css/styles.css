@@ -24,6 +24,7 @@ body {
     font-size: 1.4em;
     font-variation-settings: 'opsz' 12, 'wght' 450, 'GRAD' 1, 'slnt' 0;
     font-feature-settings: 'calt' on, 'liga' on, 'dlig' on, 'swsh' on, 'frac' on, 'pnum' on;
+    text-shadow: 0.05rem 0.05rem 0.05rem #eee, -0.05rem -0.05rem 0.05rem rgb(204, 197, 162);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -243,12 +244,13 @@ footer
     
     homepagenavigationitem::before
     {
-        display: inline;
+        display: inline-block;
         background-image: url("../images/music-c-clef.svg");
         background-repeat: no-repeat;
         background-position-y: 5px;
         content: '\00A0\00A0\00A0\00A0';
         background-size: 20px 20px;
+        vertical-align: text-bottom;
     }
 
     homepagenavigationitem
