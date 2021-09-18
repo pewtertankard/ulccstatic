@@ -24,7 +24,7 @@ body {
     font-size: 1.4em;
     font-variation-settings: 'opsz' 12, 'wght' 450, 'GRAD' 1, 'slnt' 0;
     font-feature-settings: 'calt' on, 'liga' on, 'dlig' on, 'swsh' on, 'frac' on, 'pnum' on;
-    text-shadow: 0.05rem 0.05rem 0.05rem #eee, -0.05rem -0.05rem 0.05rem rgb(204, 197, 162);
+    text-shadow: 1px 1px 1px #eee, -1px -1px 1px rgb(204, 197, 162);
     min-height: 100vh;
     display: flex;
     justify-content: center;
